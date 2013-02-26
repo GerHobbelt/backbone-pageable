@@ -48,7 +48,7 @@ Light-weight
 Playable Demos
 --------------
 
-The following examples utilized `Backgrid.js
+The following examples utilizes `Backgrid.js
 <http://wyuenho.github.com/backgrid/>`_ to render the collections.
 
 - `Server Mode <http://wyuenho.github.com/backbone-pageable/examples/server-mode.html>`_
@@ -542,6 +542,12 @@ FAQ
 
 Change Log
 ----------
+
+1.1.6
+  Bugs Fixed
+    - Fixed bug where a page of models disappeared after adding an array of
+      models to the current page under client mode. `(Issue #43)
+      <https://github.com/wyuenho/backbone-pageable/issues/43>`_.
 
 1.1.5
   Bugs Fixed
